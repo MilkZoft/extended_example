@@ -1,0 +1,25 @@
+{
+  "name": "extendedjs",
+  "version": "1.0.0",
+  "author": "Carlos Santana",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MilkZoft/eXtended.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "babelify": "latest",
+    "browserify": "latest",
+    "browserify-shim": "latest",
+    "gulp": "latest",
+    "gulp-watch": "latest",
+    "stringify": "latest",
+    "vinyl-source-stream": "latest"
+  },
+  "browserify-shim": {
+    "external": "global:External"
+  }
+}
